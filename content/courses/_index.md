@@ -2,6 +2,9 @@
 title: Courses
 summary: My courses
 type: landing
+build:
+  render: never
+  list: never
 
 cascade:
   - target:
@@ -9,6 +12,9 @@ cascade:
     type: docs
     params:
       show_breadcrumb: true
+    build:
+      render: never
+      list: never
 
 sections:
   - block: collection

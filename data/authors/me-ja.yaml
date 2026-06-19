@@ -1,0 +1,37 @@
+schema: hugoblox/author/v1
+slug: me-ja
+is_owner: false
+name:
+  display: 田畑 玲穏
+  given: 玲穏
+  family: 田畑
+  alternate: Reon Tabata
+  pronunciation: ''
+  pronouns: ''
+postnominals: []
+status:
+  icon: "🤖"
+role: 豊橋技術科学大学 博士前期課程
+bio: |
+  自律移動ロボットの環境認識と自律移動を研究しています。
+  LiDAR、カメラ、コンピュータビジョン、機械学習を組み合わせた
+  ロボットシステムに取り組んでいます。
+
+affiliations:
+  - name: 豊橋技術科学大学 行動知能システム学研究室
+  - name: 産業技術総合研究所 スマートモビリティ研究グループ
+
+links:
+  - icon: brands/github
+    url: https://github.com/reopeo
+    label: GitHub
+  - icon: globe-alt
+    url: https://reopeo.github.io/GhostScanner/
+    label: GhostScanner
+
+interests:
+  - 移動ロボティクス
+  - 自律移動
+  - LiDAR環境認識
+  - コンピュータビジョン
+  - マルチモーダル学習

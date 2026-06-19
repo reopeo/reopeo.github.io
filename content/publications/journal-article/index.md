@@ -1,5 +1,8 @@
 ---
 title: "An example journal article"
+build:
+  render: never
+  list: never
 authors:
 - me
 - Robert Ford

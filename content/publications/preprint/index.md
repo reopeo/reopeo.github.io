@@ -1,5 +1,8 @@
 ---
 title: "An example preprint / working paper"
+build:
+  render: never
+  list: never
 authors:
 - me
 date: "2019-04-07T00:00:00Z"

@@ -1,5 +1,8 @@
 ---
 title: 'An example conference paper'
+build:
+  render: never
+  list: never
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here

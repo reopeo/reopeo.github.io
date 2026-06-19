@@ -1,6 +1,9 @@
 ---
 title: PyTorch
 date: 2023-10-26
+build:
+  render: never
+  list: never
 links:
   - type: site
     url: https://github.com/pytorch/pytorch

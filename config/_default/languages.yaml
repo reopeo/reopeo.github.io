@@ -5,18 +5,54 @@
 # Default language
 en:
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  title: Reon Tabata
+  params:
+    description: Research portfolio of Reon Tabata, focusing on mobile robotics, environmental perception, and multimodal learning.
+    hugoblox:
+      identity:
+        name: Reon Tabata
+  menu:
+    main:
+      - name: Home
+        url: /
+        weight: 10
+      - name: Research
+        url: /#research
+        weight: 20
+      - name: Publications
+        url: /#publications
+        weight: 30
+      - name: Projects
+        url: projects/
+        weight: 40
+      - name: Experience
+        url: experience/
+        weight: 50
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  locale: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+ja:
+  locale: ja-jp
+  contentDir: content/ja
+  title: 田畑 玲穏
+  params:
+    description: 自律移動ロボット、環境認識、マルチモーダル学習に取り組む田畑玲穏の研究ポートフォリオ。
+    hugoblox:
+      identity:
+        name: 田畑 玲穏
+  menu:
+    main:
+      - name: ホーム
+        url: /ja/
+        weight: 10
+      - name: 研究
+        url: /ja/#research
+        weight: 20
+      - name: 研究業績
+        url: /ja/#publications
+        weight: 30
+      - name: プロジェクト
+        url: /ja/projects/
+        weight: 40
+      - name: 経歴・受賞
+        url: /ja/experience/
+        weight: 50
