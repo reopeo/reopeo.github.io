@@ -19,10 +19,10 @@ hugoblox:
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Mobile Robotics and Multimodal Learning"
+    tagline: "Mobile Robotics and Multimodal Perception"
     # Site meta description for search engines and social sharing
     description: "Research portfolio of Reon Tabata, focusing on mobile robotics,
-      environmental perception, LiDAR, computer vision, and multimodal learning."
+      LiDAR-camera perception, computer vision, and autonomous navigation."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""
@@ -146,7 +146,7 @@ hugoblox:
       allow:
         - /
       disallow: []
-      note: "Guidance for AI crawlers - customize to match your public content."
+      note: "Public research portfolio of Reon Tabata."
       contact: ""
 
   # ────────────────────────────────────────────────────────────────────────────
@@ -162,10 +162,10 @@ hugoblox:
       enable: true
     # Reading time estimates
     reading_time:
-      enable: true
+      enable: false
     # Academic citations
     citations:
-      style: apa # apa | mla | chicago | ieee
+      style: ieee # apa | mla | chicago | ieee
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH
